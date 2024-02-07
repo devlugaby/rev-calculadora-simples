@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color:white;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('calculadora.avif');
+}
+
+h1{
+    color:black;
+}
+
+#calculadora{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input, select{
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+button{
+    background-color:lightblue;
+    border-radius: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+}
+
+#resultado{
+    color:black;
+}
+
+p{
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: black;
+}
